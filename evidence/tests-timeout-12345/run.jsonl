@@ -1,0 +1,5 @@
+{"time":"2026-10-10T19:55:54.464Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:54.483Z","type":"action","step":0,"action":{"action":"fill","target":{"kind":"label","name":"Member reference"},"input":"member"}}
+{"time":"2026-10-10T19:55:54.492Z","type":"action","step":1,"action":{"action":"click","target":{"kind":"button","name":"Search"}}}
+{"time":"2026-10-10T19:55:54.602Z","type":"state","kind":"intervention","code":"SESSION_EXPIRED","observed":"Session expired"}
+{"time":"2026-10-10T19:55:54.608Z","type":"result","status":"intervention","kind":"intervention","code":"SESSION_EXPIRED","observed":"Session expired","step":2}

@@ -1,0 +1,7 @@
+{
+  "routes": ["/", "/search", "/detail", "/review"],
+  "controls": {
+    "fill": ["Member reference"],
+    "click": ["Search", "Open member", "Review savings balance", "Continue"]
+  }
+}

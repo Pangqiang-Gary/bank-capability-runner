@@ -1,0 +1,12 @@
+- main:
+  - heading "Harbor Operations" [level=1]
+  - paragraph: Sandbox · synthetic records only · vendor v1
+  - heading "Member search" [level=2]
+  - table:
+    - rowgroup:
+      - row "Member reference [REFERENCE]":
+        - cell "Member reference"
+        - cell "[REFERENCE]":
+          - textbox "Member reference": "[REFERENCE]"
+  - button "Search"
+- button "Search"

@@ -1,0 +1,7 @@
+- main:
+  - heading "Harbor Operations" [level=1]
+  - paragraph: Sandbox · synthetic records only · vendor v1
+  - heading "Session expired" [level=2]
+  - paragraph: Operator verification required.
+  - link "Restore sandbox session":
+    - /url: /search?member=[REFERENCE]&mode=timeout&resumed=1

@@ -1,0 +1,7 @@
+{
+  "status": "business_outcome",
+  "kind": "business_outcome",
+  "code": "NOT_FOUND",
+  "observed": "Member not found",
+  "step": 2
+}

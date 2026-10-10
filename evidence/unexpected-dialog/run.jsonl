@@ -1,0 +1,3 @@
+{"time":"2026-10-10T19:55:56.740Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:56.740Z","type":"state","kind":"failure","code":"UNEXPECTED_DIALOG","observed":"Unrecognized application dialog"}
+{"time":"2026-10-10T19:55:56.756Z","type":"result","status":"failure","kind":"failure","code":"UNEXPECTED_DIALOG","observed":"Unrecognized application dialog","step":0}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "discovery": {
+    "provider": "OpenAI Responses API",
+    "modelCalls": 5,
+    "liveBrowser": true
+  },
+  "replay": {
+    "artifact": "evidence/discover-normal/capability.json",
+    "differentInput": true,
+    "apiKeyPresent": false,
+    "modelCalls": 0,
+    "status": "success"
+  },
+  "handoff": "same live Page; simulated operator"
+}

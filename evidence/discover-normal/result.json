@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "outputs": {
+    "balance": "[REDACTED]",
+    "currency": "USD"
+  },
+  "modelCalls": 5
+}

@@ -1,0 +1,6 @@
+{"time":"2026-10-10T19:55:50.408Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:50.423Z","type":"action","step":0,"action":{"action":"fill","target":{"kind":"label","name":"Member reference"},"input":"member"}}
+{"time":"2026-10-10T19:55:50.438Z","type":"action","step":1,"action":{"action":"click","target":{"kind":"button","name":"Search"}}}
+{"time":"2026-10-10T19:55:50.544Z","type":"action","step":2,"action":{"action":"click","target":{"kind":"link","name":"Open member"}}}
+{"time":"2026-10-10T19:55:50.669Z","type":"action","step":3,"action":{"action":"click","target":{"kind":"link","name":"Review savings balance"}}}
+{"time":"2026-10-10T19:55:50.708Z","type":"result","status":"success","outputs":{"balance":"[REDACTED]","currency":"USD"},"modelCalls":0}

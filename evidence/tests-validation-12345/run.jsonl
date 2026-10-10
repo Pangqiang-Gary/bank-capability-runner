@@ -1,0 +1,5 @@
+{"time":"2026-10-10T19:55:52.024Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:52.040Z","type":"action","step":0,"action":{"action":"fill","target":{"kind":"label","name":"Member reference"},"input":"member"}}
+{"time":"2026-10-10T19:55:52.050Z","type":"action","step":1,"action":{"action":"click","target":{"kind":"button","name":"Search"}}}
+{"time":"2026-10-10T19:55:52.155Z","type":"state","kind":"business_outcome","code":"INVALID_REFERENCE","observed":"Validation error"}
+{"time":"2026-10-10T19:55:52.155Z","type":"result","status":"business_outcome","kind":"business_outcome","code":"INVALID_REFERENCE","observed":"Validation error","step":2}

@@ -1,0 +1,7 @@
+{
+  "status": "intervention",
+  "kind": "intervention",
+  "code": "SESSION_EXPIRED",
+  "observed": "Session expired",
+  "step": 2
+}

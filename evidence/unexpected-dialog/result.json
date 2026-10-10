@@ -1,0 +1,7 @@
+{
+  "status": "failure",
+  "kind": "failure",
+  "code": "UNEXPECTED_DIALOG",
+  "observed": "Unrecognized application dialog",
+  "step": 0
+}

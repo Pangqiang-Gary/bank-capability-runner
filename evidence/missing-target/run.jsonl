@@ -1,0 +1,3 @@
+{"time":"2026-10-10T19:55:57.108Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:57.123Z","type":"action","step":0,"action":{"action":"click","target":{"kind":"link","name":"Open member"}}}
+{"time":"2026-10-10T19:55:57.134Z","type":"result","status":"failure","code":"TARGET_AMBIGUOUS_OR_MISSING","step":0,"expected":{"kind":"link","name":"Open member"},"observed":"- main:\n  - heading \"Harbor Operations\" [level=1]\n  - paragraph: Sandbox · synthetic records only · vendor v1\n  - heading \"Member search\" [level=2]\n  - table:\n    - rowgroup:\n      - row \"Member reference\":\n        - cell \"Member reference\"\n        - cell:\n          - textbox \"Member reference\"\n  - button \"Search\""}

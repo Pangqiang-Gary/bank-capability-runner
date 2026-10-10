@@ -1,0 +1,10 @@
+{
+  "status": "failure",
+  "code": "TARGET_AMBIGUOUS_OR_MISSING",
+  "step": 0,
+  "expected": {
+    "kind": "link",
+    "name": "Open member"
+  },
+  "observed": "- main:\n  - heading \"Harbor Operations\" [level=1]\n  - paragraph: Sandbox · synthetic records only · vendor v1\n  - heading \"Member search\" [level=2]\n  - table:\n    - rowgroup:\n      - row \"Member reference\":\n        - cell \"Member reference\"\n        - cell:\n          - textbox \"Member reference\"\n  - button \"Search\""
+}

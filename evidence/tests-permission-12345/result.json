@@ -1,0 +1,7 @@
+{
+  "status": "failure",
+  "kind": "failure",
+  "code": "PERMISSION_DENIED",
+  "observed": "Permission denied",
+  "step": 2
+}

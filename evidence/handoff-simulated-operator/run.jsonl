@@ -1,0 +1,18 @@
+{"time":"2026-10-10T19:55:55.084Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:55.099Z","type":"action","step":0,"action":{"action":"fill","target":{"kind":"label","name":"Member reference"},"input":"member"}}
+{"time":"2026-10-10T19:55:55.108Z","type":"action","step":1,"action":{"action":"click","target":{"kind":"button","name":"Search"}}}
+{"time":"2026-10-10T19:55:55.216Z","type":"state","kind":"intervention","code":"SESSION_EXPIRED","observed":"Session expired"}
+{"time":"2026-10-10T19:55:55.220Z","type":"control_transfer","owner":"human","request":{"kind":"intervention","code":"SESSION_EXPIRED","observed":"- main:\n  - heading \"Harbor Operations\" [level=1]\n  - paragraph: Sandbox · synthetic records only · vendor v1\n  - heading \"Session expired\" [level=2]\n  - paragraph: Operator verification required.\n  - link \"Restore sandbox session\":\n    - /url: /search?member=[REFERENCE]&mode=timeout&resumed=1","capability":"review_savings","step":2,"expected":{"kind":"link","name":"Open member"}}}
+{"time":"2026-10-10T19:55:55.271Z","type":"human_actions","events":[{"type":"click","control":"Restore sandbox session"}]}
+{"time":"2026-10-10T19:55:55.271Z","type":"control_transfer","owner":"automation"}
+{"time":"2026-10-10T19:55:55.282Z","type":"action","step":2,"action":{"action":"click","target":{"kind":"link","name":"Open member"}}}
+{"time":"2026-10-10T19:55:55.319Z","type":"state","kind":"intervention","code":"SESSION_EXPIRED","observed":"Session expired"}
+{"time":"2026-10-10T19:55:55.321Z","type":"control_transfer","owner":"human","request":{"kind":"intervention","code":"SESSION_EXPIRED","observed":"- main:\n  - heading \"Harbor Operations\" [level=1]\n  - paragraph: Sandbox · synthetic records only · vendor v1\n  - heading \"Session expired\" [level=2]\n  - paragraph: Operator verification required.\n  - link \"Restore sandbox session\":\n    - /url: /detail?member=[REFERENCE]&mode=timeout&resumed=1","capability":"review_savings","step":3,"expected":{"kind":"link","name":"Review savings balance"}}}
+{"time":"2026-10-10T19:55:55.351Z","type":"human_actions","events":[{"type":"click","control":"Restore sandbox session"}]}
+{"time":"2026-10-10T19:55:55.351Z","type":"control_transfer","owner":"automation"}
+{"time":"2026-10-10T19:55:55.359Z","type":"action","step":3,"action":{"action":"click","target":{"kind":"link","name":"Review savings balance"}}}
+{"time":"2026-10-10T19:55:55.390Z","type":"state","kind":"intervention","code":"SESSION_EXPIRED","observed":"Session expired"}
+{"time":"2026-10-10T19:55:55.393Z","type":"control_transfer","owner":"human","request":{"kind":"intervention","code":"SESSION_EXPIRED","observed":"- main:\n  - heading \"Harbor Operations\" [level=1]\n  - paragraph: Sandbox · synthetic records only · vendor v1\n  - heading \"Session expired\" [level=2]\n  - paragraph: Operator verification required.\n  - link \"Restore sandbox session\":\n    - /url: /review?member=[REFERENCE]&mode=timeout&resumed=1","capability":"review_savings","step":4,"expected":{"heading":"Balance review"}}}
+{"time":"2026-10-10T19:55:55.425Z","type":"human_actions","events":[{"type":"click","control":"Restore sandbox session"}]}
+{"time":"2026-10-10T19:55:55.425Z","type":"control_transfer","owner":"automation"}
+{"time":"2026-10-10T19:55:55.437Z","type":"result","status":"success","outputs":{"balance":"[REDACTED]","currency":"USD"},"modelCalls":0}

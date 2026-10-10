@@ -1,0 +1,9 @@
+{"time":"2026-10-10T19:55:52.518Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:52.534Z","type":"action","step":0,"action":{"action":"fill","target":{"kind":"label","name":"Member reference"},"input":"member"}}
+{"time":"2026-10-10T19:55:52.547Z","type":"action","step":1,"action":{"action":"click","target":{"kind":"button","name":"Search"}}}
+{"time":"2026-10-10T19:55:52.645Z","type":"state","kind":"recoverable","code":"MAINTENANCE_NOTICE","observed":"Maintenance notice"}
+{"time":"2026-10-10T19:55:52.726Z","type":"action","step":2,"action":{"action":"click","target":{"kind":"link","name":"Open member"}}}
+{"time":"2026-10-10T19:55:52.758Z","type":"state","kind":"recoverable","code":"MAINTENANCE_NOTICE","observed":"Maintenance notice"}
+{"time":"2026-10-10T19:55:52.786Z","type":"action","step":3,"action":{"action":"click","target":{"kind":"link","name":"Review savings balance"}}}
+{"time":"2026-10-10T19:55:52.819Z","type":"state","kind":"recoverable","code":"MAINTENANCE_NOTICE","observed":"Maintenance notice"}
+{"time":"2026-10-10T19:55:52.851Z","type":"result","status":"success","outputs":{"balance":"[REDACTED]","currency":"USD"},"modelCalls":0}

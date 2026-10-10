@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "name": "review_savings",
+  "vendor": "harbor-v1",
+  "revision": 1,
+  "description": "Search a synthetic member and read savings balance at a review checkpoint.",
+  "inputs": {
+    "member": {
+      "type": "string",
+      "pattern": "^[0-9]{5}$",
+      "sensitive": true
+    }
+  },
+  "outputs": {
+    "balance": {
+      "type": "number",
+      "sensitive": true,
+      "target": {
+        "kind": "label",
+        "name": "Savings balance"
+      }
+    },
+    "currency": {
+      "type": "string",
+      "target": {
+        "kind": "label",
+        "name": "Currency"
+      }
+    }
+  },
+  "steps": [
+    {
+      "action": "fill",
+      "target": {
+        "kind": "label",
+        "name": "Member reference"
+      },
+      "input": "member"
+    },
+    {
+      "action": "click",
+      "target": {
+        "kind": "button",
+        "name": "Search"
+      }
+    },
+    {
+      "action": "click",
+      "target": {
+        "kind": "link",
+        "name": "Open member"
+      }
+    },
+    {
+      "action": "click",
+      "target": {
+        "kind": "link",
+        "name": "Review savings balance"
+      }
+    }
+  ],
+  "checkpoint": {
+    "heading": "Balance review"
+  },
+  "targeting": "Exact accessible names; unique match required; no coordinate or index fallback."
+}

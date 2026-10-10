@@ -1,0 +1,5 @@
+- main:
+  - heading "Harbor Operations" [level=1]
+  - paragraph: Sandbox · synthetic records only · vendor v1
+  - heading "Permission denied" [level=2]
+  - paragraph: Your role cannot view this record.

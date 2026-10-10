@@ -1,0 +1,10 @@
+{
+  "status": "failure",
+  "code": "TARGET_AMBIGUOUS_OR_MISSING",
+  "step": 1,
+  "expected": {
+    "kind": "button",
+    "name": "Search"
+  },
+  "observed": "- main:\n  - heading \"Harbor Operations\" [level=1]\n  - paragraph: Sandbox · synthetic records only · vendor v1\n  - heading \"Member search\" [level=2]\n  - table:\n    - rowgroup:\n      - row \"Member reference [REFERENCE]\":\n        - cell \"Member reference\"\n        - cell \"[REFERENCE]\":\n          - textbox \"Member reference\": \"[REFERENCE]\"\n  - button \"Search\"\n- button \"Search\""
+}

@@ -1,0 +1,7 @@
+{
+  "status": "business_outcome",
+  "kind": "business_outcome",
+  "code": "INVALID_REFERENCE",
+  "observed": "Validation error",
+  "step": 2
+}

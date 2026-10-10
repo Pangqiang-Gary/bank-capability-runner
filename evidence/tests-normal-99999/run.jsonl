@@ -1,0 +1,5 @@
+{"time":"2026-10-10T19:55:51.068Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:51.083Z","type":"action","step":0,"action":{"action":"fill","target":{"kind":"label","name":"Member reference"},"input":"member"}}
+{"time":"2026-10-10T19:55:51.093Z","type":"action","step":1,"action":{"action":"click","target":{"kind":"button","name":"Search"}}}
+{"time":"2026-10-10T19:55:51.200Z","type":"state","kind":"business_outcome","code":"NOT_FOUND","observed":"Member not found"}
+{"time":"2026-10-10T19:55:51.200Z","type":"result","status":"business_outcome","kind":"business_outcome","code":"NOT_FOUND","observed":"Member not found","step":2}

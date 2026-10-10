@@ -1,0 +1,5 @@
+{"time":"2026-10-10T19:55:51.544Z","type":"start","capability":"review_savings","revision":1,"modelCalls":0}
+{"time":"2026-10-10T19:55:51.560Z","type":"action","step":0,"action":{"action":"fill","target":{"kind":"label","name":"Member reference"},"input":"member"}}
+{"time":"2026-10-10T19:55:51.568Z","type":"action","step":1,"action":{"action":"click","target":{"kind":"button","name":"Search"}}}
+{"time":"2026-10-10T19:55:51.669Z","type":"state","kind":"failure","code":"PERMISSION_DENIED","observed":"Permission denied"}
+{"time":"2026-10-10T19:55:51.674Z","type":"result","status":"failure","kind":"failure","code":"PERMISSION_DENIED","observed":"Permission denied","step":2}

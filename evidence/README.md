@@ -1,0 +1,7 @@
+# Evidence provenance
+
+The final discovery completed on 2026-10-10 using the real OpenAI Responses API (`gpt-4.1-mini-2025-04-14`) and the project's pinned Playwright dependency. `discover-normal/run.jsonl` contains five model response IDs, usage and action decisions from live Chrome interactions. The four recorded actions were selected by the model, not supplied as a script. Sensitive observations were masked before requests; persisted output fields were scrubbed at logging time. Output locator declarations were added by the deterministic contract compiler.
+
+`replay-normal` runs that saved artifact with a different member input and no model API key in its process; it succeeds with zero model calls. The final 15 tests passed. Integration tests additionally use a separately declared fixture flow and inject error modes through sandbox configuration. `handoff-simulated-operator` explicitly uses an automated operator callback on the same browser Page. It is evidence of the real handoff mechanism, not proof that a person used the console. Failure snapshots are redacted accessibility trees.
+
+Evidence directories are overwritten when repeating the same command. Test and replay outputs retain sensitive balance only in memory/caller stdout; persisted files mask it. The source includes synthetic member references and synthetic balances as sandbox fixtures; these are not user or bank data. No API key is copied into this project.
